@@ -1,0 +1,8 @@
+Project n 2
+isMirror is recursive function so the solution is recursive 
+it takes two trees, left and right as an argument
+if trees are the mirror return true, otherwise false
+the solution is based on simple if condition with the following 
+ - root node's key must be same so I check the values
+ - left subtree of left tree and right subtree of right tree should be mirrored
+ - right subtree of right tree and left subtree of left tree should be mirrored
